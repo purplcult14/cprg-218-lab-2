@@ -1,0 +1,48 @@
+*{
+    box-sizing: 0;
+}
+
+header{
+    background-color: #120323;
+    color: #97bf04;
+    text-align: center;
+    padding: 2rem;
+    font-size: x-large;
+}
+img{
+	border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 3px 25px 10px black;
+    display: flex;
+    margin: auto; 
+    max-width: 900px; 
+    height: auto; 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+button{
+    background-color: #d9043d;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    margin: auto;
+
+}
+button:active{
+    background-color: #97bf04;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    margin: auto;
+}
+button:focus{
+    background-color: #97bf04;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    margin: auto;
+}
+
+section{
+   display: flex;  
+}
